@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    /> -->
+    <script
+      src="https://kit.fontawesome.com/50546bb458.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="page">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Shubham Bhavsar</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="img/IMG-20191229-WA0009.jpg"
+        alt="shubham's profile pic"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my--services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            nam voluptates excepturi! Corrupti, ipsam! Eligendi aut eos earum
+            inventore cupiditate, a voluptatibus sint amet ipsa error! Magnam
+            doloremque earum enim unde, quasi autem eum ratione provident rem
+            voluptas cumque vitae?
+          </p>
+        </div>
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id enim
+            veniam dolorem! Ducimus, ab dolores soluta quam ipsum, aperiam,
+            perspiciatis est modi id atque error. Neque, commodi corrupti quia
+            expedita voluptate iste? Minima a quam veniam maiores optio
+            exercitationem fugit!
+          </p>
+        </div>
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ab
+            vitae nulla accusantium. Repellendus quia laudantium numquam
+            provident odit cumque sequi obcaecati temporibus mollitia qui
+            dolorum aliquid consectetur facere deserunt quibusdam deleniti,
+            placeat, enim ducimus magnam expedita minus non in.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- About me -->
+    <section class="about--me" id="#about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-End Developer based in Melbourne, VIC
+      </p>
+      <div class="about-me__body">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum adipisci
+          natus illum vel labore itaque assumenda. Debitis consequuntur deserunt
+          ex.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ad eius
+          ipsa omnis necessitatibus, tempore harum velit adipisci nulla illum
+          commodi. Saepe hic, quas quaerat recusandae ratione porro sequi
+          consequuntur. Consectetur nesciunt sed voluptatem et odit distinctio
+          illo ratione! Officiis?
+        </p>
+      </div>
+      <!-- <img src="img/IMG-20191229-WA0009.jpg" alt="" class="about__me--img" /> -->
+    </section>
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">Recent Projects</p>
+
+      <div class="portfolio">
+        <a href="" class="portfolio__item">
+          <img
+            src="img/flexprint.PNG"
+            alt="flex print web"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="" class="portfolio__item">
+          <img
+            src="img/airbnbClone.PNG"
+            alt="airbnb clone"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="" class="portfolio__item">
+          <img
+            src="img/teethclinic.PNG"
+            alt="teeth clinic"
+            class="portfolio__img"
+          />
+        </a>
+        <a href="" class="portfolio__item">
+          <img
+            src="img/tribute.PNG"
+            alt="tribute page"
+            class="portfolio__img"
+            style="object-position: center"
+          />
+        </a>
+        <!-- <a href="" class="portfolio__item">
+          <img src="img/sassWeb.PNG" alt="sass report" class="portfolio__img" />
+        </a> -->
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <a href="mailto:shubhambhavsar50@gmail.com" class="footer__link"
+        >shubhambhavsar50@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="" class="social-list__link"><i class="fab fa-github"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <!-- <li class="social-list__item"><a href="" class="social-list">d</a></li> -->
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
